@@ -1,0 +1,155 @@
+body {font-family: Verdana, Arial, sans-serif; font-size: 9pt; margin: 0}
+
+img {border: none;}
+img.button {position: relative; top: 8px;}
+
+.literal {color: green;}
+.annotation-uri {color: gray;}
+.ontology-uri {color: #990099;}
+.active-ontology-uri {color: #330033;}
+.active-entity {color: darkblue; font-weight: bold;}
+
+/* keywords - default cyan */
+.keyword {color: #007777;}
+.comment {color: green;}
+.some {color: #770077;}
+.only {color: #770077;}
+.value {color: #770077;}
+.min {color: #770077;}
+.max {color: #770077;}
+.exactly {color: #770077;}
+
+div.codebox {overflow: hidden;
+    background: #f1f5f9; width: 95%; padding: 5px;
+    border-width: 1px; border-style: solid; border-color: #c7cfd5;
+}
+
+#queryform {background: #ddddff; padding: 5px;}
+#most_used_classes {text-align: center;}
+
+p.footer {font-size: 8pt; text-align: right;}
+
+/*h1 {margin-top: 5px; font-size: 14pt; font-weight: bold;}*/
+/*h2 {margin-top: 5px; margin-bottom: 3px; font-size: 12pt; font-weight: normal;}*/
+
+a {text-decoration: none; color: black;}
+/*a:hover {text-decoration: underline; color: blue;}*/
+
+/*a.subsexpand {color: #555555; font-size: 7pt; text-decoration: underline; line-height: 180%;}*/
+
+ul {margin-top: 1px; margin-bottom: 1px; margin-left: 10px; padding-left: 5px;}
+
+ul.minihierarchy {list-style-type: disc;}
+#tabs {
+    display: none;
+}
+.ontologies-info, .ontologies-menu {
+    position: absolute;
+}
+.ontologies-info {
+    background-color: #D9EEE1;
+    border-left: none;
+    padding: 1px;
+    top: 0;
+    width: 99.8%;
+    /*margin-top: -13px;*/
+    /*margin-left: -32px;*/
+    /*margin-right: -32px;*/
+    text-align: center;
+}
+.ontologies-menu {
+    top: 64px;
+    color: white;
+    height: 50px;
+    width: 100%;
+	display: inline-block;
+	background-color: #282a35;
+}
+.ontologies-menu button {
+	background-color: #282a35;
+	width: 16.7%;
+	height: 50px;
+	color: white;
+	font-size: 20px;
+	margin-left: -5px;
+	color: white;
+	border: none;
+	vertical-align: middle;
+}
+.ontologies-menu button:hover {
+	background-color: #000000;
+}
+.ontologies-menu button a {
+	color: white;
+}
+.ontologies {
+	text-align: center;
+}
+.ontologies li {
+	border: 1px solid black;
+    margin: 5px;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 24%;
+    font-size: 16px;
+    padding: 30px 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none !important;
+    border-radius: 5px;
+	background-color: #E7E9EB;
+}
+.ontologies li span {
+    padding-top: 20px;
+}
+.ontologies li:hover {
+	background-color: #282a35;
+	color: white;
+}
+.ontologies li:hover a{
+	color: white;
+}
+#proses_kerja, .owlselector {
+	margin-top: 130px;
+}
+.owlselector h2, #proses_kerja h2 {
+	font-size: 32px;
+}
+.ontologies-submenu, #proses_kerja {
+	text-align: center;
+}
+.ontologies-submenu .codebox {
+    width: 99%;
+}
+.ontologies-submenu li{
+	border: 1px solid black;
+    margin: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    padding: 20px 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none !important;
+    border-radius: 5px;
+	background-color: #E7E9EB;
+}
+
+.ontologies-submenu li:hover {
+    background-color: #282a35;
+    color: white;
+}
+.ontologies-submenu li:hover a{
+    color: white;
+}
+.summary {
+    padding: 50px;
+    margin-top: 100px;
+}
+.summary .codebox ul li {
+    padding: 5px;
+}
+.codebox {
+    padding: 10px !important;
+}
