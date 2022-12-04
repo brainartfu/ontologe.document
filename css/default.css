@@ -107,6 +107,9 @@ ul.minihierarchy {list-style-type: disc;}
 	background-color: #282a35;
 	color: white;
 }
+.active {
+    background-color: #000000 !important;
+}
 .ontologies li:hover a{
 	color: white;
 }
